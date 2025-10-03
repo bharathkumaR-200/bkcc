@@ -46,6 +46,7 @@ const HeroSection = () => {
               variant="cta" 
               size="lg" 
               className="group"
+              onClick={() => window.location.href = '/signup'}
             >
               Sign up for early access today!
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
